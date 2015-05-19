@@ -36,6 +36,14 @@
             android:name=".LoginActivity"
             android:label="@string/title_activity_login" >
         </activity>
+        <activity
+            android:name=".JadwalPilihActivity"
+            android:label="@string/title_activity_jadwal_pilih" >
+        </activity>
+        <activity
+            android:name=".ListDokterActivity"
+            android:label="@string/title_activity_list_dokter" >
+        </activity>
     </application>
 
 </manifest>
