@@ -17,8 +17,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".HalamanRegistrsiDokterActivity"
-            android:label="@string/title_activity_halaman_registrsi_dokter" >
+            android:name=".RegistrasiDOkterActivity"
+            android:label="@string/title_activity_registrasi_dokter" >
         </activity>
     </application>
 
