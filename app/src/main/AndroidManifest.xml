@@ -28,6 +28,10 @@
             android:name=".PemilihanJadwalOlehPasien"
             android:label="@string/title_activity_pemilihan_jadwal_oleh_pasien" >
         </activity>
+        <activity
+            android:name=".pemilihanJadwalSukses"
+            android:label="@string/title_activity_pemilihan_jadwal_sukses" >
+        </activity>
     </application>
 
 </manifest>
