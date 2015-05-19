@@ -32,6 +32,10 @@
             android:name=".pemilihanJadwalSukses"
             android:label="@string/title_activity_pemilihan_jadwal_sukses" >
         </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login" >
+        </activity>
     </application>
 
 </manifest>
