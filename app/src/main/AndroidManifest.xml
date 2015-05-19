@@ -24,6 +24,10 @@
             android:name=".registrasiKlinikActivity"
             android:label="@string/title_activity_registrasi_klinik" >
         </activity>
+        <activity
+            android:name=".PemilihanJadwalOlehPasien"
+            android:label="@string/title_activity_pemilihan_jadwal_oleh_pasien" >
+        </activity>
     </application>
 
 </manifest>
