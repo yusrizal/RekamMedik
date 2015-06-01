@@ -8,4 +8,5 @@
     <string name="title_activity_registrasi_klinik">registrasiKlinikActivity</string>
     <string name="title_activity_pemilihan_jadwal_oleh_pasien">PemilihanJadwalOlehPasien</string>
     <string name="title_activity_pemilihan_jadwal_sukses">pemilihanJadwalSukses</string>
+    <string name="title_activity_registrasi_pasien">RegistrasiPasien</string>
 </resources>
