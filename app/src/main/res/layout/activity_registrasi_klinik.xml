@@ -41,12 +41,21 @@
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
+        android:id="@+id/EmailLogin"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+=======
         android:id="@+id/NamaKlinik"
         android:layout_alignBottom="@+id/textView23"
         android:layout_alignRight="@+id/textView22"
         android:layout_alignEnd="@+id/textView22"
         android:layout_alignLeft="@+id/textView21"
         android:layout_alignStart="@+id/textView21" />
+>>>>>>> master
 
     <TextView
         android:layout_width="wrap_content"
@@ -62,6 +71,16 @@
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/PassLogin"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_alignLeft="@+id/EmailLogin"
+        android:layout_alignStart="@+id/EmailLogin"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+=======
         android:id="@+id/editText"
         android:layout_alignTop="@+id/textView24"
         android:layout_alignLeft="@+id/NamaKlinik"
@@ -69,6 +88,7 @@
         android:layout_alignRight="@+id/textView22"
         android:layout_alignEnd="@+id/textView22"
         android:layout_alignBottom="@+id/textView24" />
+>>>>>>> master
 
     <TextView
         android:layout_width="wrap_content"
@@ -84,12 +104,23 @@
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/editText3"
+        android:layout_alignBottom="@+id/textView5"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignLeft="@+id/PassLogin"
+        android:layout_alignStart="@+id/PassLogin" />
+=======
         android:id="@+id/EmailDokter"
         android:layout_alignBottom="@+id/textView25"
         android:layout_alignLeft="@+id/editText"
         android:layout_alignStart="@+id/editText"
         android:layout_alignRight="@+id/textView22"
         android:layout_alignEnd="@+id/textView22" />
+>>>>>>> master
 
     <TextView
         android:layout_width="wrap_content"

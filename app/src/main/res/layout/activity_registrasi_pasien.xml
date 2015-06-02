@@ -39,12 +39,21 @@
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+<<<<<<< HEAD:app/src/main/res/layout/registrasi_pasien_activity.xml
+        android:id="@+id/EmailLogin"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+=======
         android:id="@+id/namaPasien"
         android:layout_alignBottom="@+id/textView20"
         android:layout_alignRight="@+id/textView18"
         android:layout_alignEnd="@+id/textView18"
         android:layout_alignLeft="@+id/textView15"
         android:layout_alignStart="@+id/textView15" />
+>>>>>>> master:app/src/main/res/layout/activity_registrasi_pasien.xml
 
     <TextView
         android:layout_width="wrap_content"
@@ -62,10 +71,19 @@
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+<<<<<<< HEAD:app/src/main/res/layout/registrasi_pasien_activity.xml
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/PassLogin"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_alignLeft="@+id/EmailLogin"
+        android:layout_alignStart="@+id/EmailLogin"
+=======
         android:id="@+id/TTLPasien"
         android:layout_alignBottom="@+id/textView29"
         android:layout_alignLeft="@+id/namaPasien"
         android:layout_alignStart="@+id/namaPasien"
+>>>>>>> master:app/src/main/res/layout/activity_registrasi_pasien.xml
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
 
@@ -82,12 +100,24 @@
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+<<<<<<< HEAD:app/src/main/res/layout/registrasi_pasien_activity.xml
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/editText3"
+        android:layout_alignBottom="@+id/textView5"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/textView6"
+        android:layout_alignLeft="@+id/PassLogin"
+        android:layout_alignStart="@+id/PassLogin" />
+=======
         android:id="@+id/emailPasien"
         android:layout_alignBottom="@+id/textView28"
         android:layout_alignRight="@+id/TTLPasien"
         android:layout_alignEnd="@+id/TTLPasien"
         android:layout_alignLeft="@+id/TTLPasien"
         android:layout_alignStart="@+id/TTLPasien" />
+>>>>>>> master:app/src/main/res/layout/activity_registrasi_pasien.xml
 
     <TextView
         android:layout_width="wrap_content"
