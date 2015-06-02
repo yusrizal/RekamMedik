@@ -33,12 +33,25 @@
             android:label="@string/title_activity_pemilihan_jadwal_sukses" >
         </activity>
         <activity
+<<<<<<< HEAD
             android:name=".RegistrasiKlinik"
             android:label="@string/title_activity_registrasi_klinik" >
         </activity>
         <activity
             android:name=".RegistrasiPasien"
             android:label="@string/title_activity_registrasi_pasien" >
+=======
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name=".JadwalPilihActivity"
+            android:label="@string/title_activity_jadwal_pilih" >
+        </activity>
+        <activity
+            android:name=".ListDokterActivity"
+            android:label="@string/title_activity_list_dokter" >
+>>>>>>> master
         </activity>
     </application>
 
