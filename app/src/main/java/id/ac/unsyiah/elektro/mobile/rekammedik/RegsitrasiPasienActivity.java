@@ -1,7 +1,7 @@
 package id.ac.unsyiah.elektro.mobile.rekammedik;
 
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 
@@ -12,8 +12,9 @@ public class RegsitrasiPasienActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.registrasi_pasien_activity);
-    }
 
+        new GcmRegistrationAsyncTask(this).execute();
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
