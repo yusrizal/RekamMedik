@@ -36,4 +36,5 @@ public class User {
 
     public String getBirthPlace(){return birthPlace;}
     public void setBirthPlace(String birthPlace){this.birthPlace= birthPlace;}
+
 }
