@@ -22,12 +22,17 @@ class GcmRegistrationAsyncTask extends AsyncTask<Void, Void, String> {
         private static Registration regService = null;
         private GoogleCloudMessaging gcm;
         private Context context;
+        private String TAG;
 
         // TODO: change to your own sender ID to Google Developers Console project number, as per instructions above
         private static final String SENDER_ID = "359386624099";
 
         public GcmRegistrationAsyncTask(Context context) {
             this.context = context;
+        }
+        public GcmRegistrationAsyncTask(Context context, String TAG){
+            this.context = context;
+            this.TAG = TAG;
         }
 
         @Override
