@@ -16,12 +16,12 @@ import java.util.Date;
 import java.util.GregorianCalendar;
 
 
-public class RegsitrasiPasienActivity extends ActionBarActivity {
+public class RegistrasiPasienActivity extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.registrasi_pasien_activity);
+        setContentView(R.layout.activity_registrasi_pasien);
 
         new GcmRegistrationAsyncTask(this).execute();
     }
@@ -69,6 +69,5 @@ public class RegsitrasiPasienActivity extends ActionBarActivity {
 
         //letakkan data ke datastore
         datastoreService.put(user);
-
     }
 }

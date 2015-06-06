@@ -19,7 +19,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".RegsitrasiPasienActivity"
+            android:name=".RegistrasiPasienActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -32,7 +32,7 @@
             android:label="@string/title_activity_registrasi_dokter" >
         </activity>
         <activity
-            android:name=".registrasiKlinikActivity"
+            android:name=".RegistrasiKlinikActivity"
             android:label="@string/title_activity_registrasi_klinik" >
         </activity>
         <activity
