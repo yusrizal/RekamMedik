@@ -11,7 +11,7 @@ public class RegsitrasiPasienActivity extends ActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.registrasi_pasien_activity);
+        setContentView(R.layout.activity_registrasi_pasien);
     }
 
 
