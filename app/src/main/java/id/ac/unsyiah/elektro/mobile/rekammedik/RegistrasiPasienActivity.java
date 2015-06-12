@@ -99,7 +99,6 @@ public class RegistrasiPasienActivity extends ActionBarActivity {
         else
         {
             String passsalah = "Password tidak sesuai";
-            //Tambah Toast di App
             Toast.makeText(this,passsalah, Toast.LENGTH_SHORT)
                     .show();
         }
