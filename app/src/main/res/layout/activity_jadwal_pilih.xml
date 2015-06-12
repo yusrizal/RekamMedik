@@ -14,7 +14,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:id="@+id/textView4"
+        android:id="@+id/view_daftarsebagai"
         android:text="Jadwal yang telah terpilih"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
@@ -25,7 +25,7 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Hari"
         android:id="@+id/textView5"
-        android:layout_below="@+id/textView4"
+        android:layout_below="@+id/view_daftarsebagai"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_marginTop="38dp" />
@@ -59,8 +59,8 @@
         android:text="Pasien"
         android:id="@+id/textView8"
         android:layout_alignTop="@+id/textView7"
-        android:layout_alignRight="@+id/textView4"
-        android:layout_alignEnd="@+id/textView4" />
+        android:layout_alignRight="@+id/view_daftarsebagai"
+        android:layout_alignEnd="@+id/view_daftarsebagai" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -177,7 +177,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="19 : 30"
-        android:id="@+id/textView20"
+        android:id="@+id/view_name"
         android:layout_below="@+id/textView19"
         android:layout_alignLeft="@+id/textView18"
         android:layout_alignStart="@+id/textView18" />
@@ -188,9 +188,9 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="20 : 00"
         android:id="@+id/textView21"
-        android:layout_below="@+id/textView20"
-        android:layout_alignLeft="@+id/textView20"
-        android:layout_alignStart="@+id/textView20" />
+        android:layout_below="@+id/view_name"
+        android:layout_alignLeft="@+id/view_name"
+        android:layout_alignStart="@+id/view_name" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -257,7 +257,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="19 : 00"
-        android:id="@+id/textView28"
+        android:id="@+id/view_email"
         android:layout_below="@+id/textView27"
         android:layout_alignLeft="@+id/textView27"
         android:layout_alignStart="@+id/textView27" />
@@ -267,17 +267,17 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="19 : 30"
-        android:id="@+id/textView29"
-        android:layout_below="@+id/textView28"
-        android:layout_alignLeft="@+id/textView28"
-        android:layout_alignStart="@+id/textView28" />
+        android:id="@+id/view_ttl"
+        android:layout_below="@+id/view_email"
+        android:layout_alignLeft="@+id/view_email"
+        android:layout_alignStart="@+id/view_email" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Raman"
-        android:id="@+id/textView30"
+        android:id="@+id/view_pass_pasien"
         android:layout_below="@+id/textView19"
         android:layout_toRightOf="@+id/textView19"
         android:layout_toEndOf="@+id/textView19" />
@@ -287,8 +287,8 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Zainab"
-        android:id="@+id/textView31"
-        android:layout_below="@+id/textView30"
+        android:id="@+id/view_konf_pass_pasien"
+        android:layout_below="@+id/view_pass_pasien"
         android:layout_toRightOf="@+id/textView19"
         android:layout_toEndOf="@+id/textView19" />
 
@@ -308,7 +308,7 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Ryan"
         android:id="@+id/textView33"
-        android:layout_above="@+id/textView28"
+        android:layout_above="@+id/view_email"
         android:layout_toRightOf="@+id/textView19"
         android:layout_toEndOf="@+id/textView19" />
 
@@ -318,7 +318,7 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Andika"
         android:id="@+id/textView34"
-        android:layout_below="@+id/textView28"
+        android:layout_below="@+id/view_email"
         android:layout_toRightOf="@+id/textView19"
         android:layout_toEndOf="@+id/textView19" />
 

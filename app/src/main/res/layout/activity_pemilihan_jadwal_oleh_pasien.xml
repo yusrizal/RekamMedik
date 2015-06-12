@@ -22,7 +22,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:id="@+id/namaPasien"
+        android:id="@+id/edit_nama_pasien"
         android:layout_alignParentTop="true"
         android:layout_toRightOf="@+id/imageView"
         android:layout_alignParentRight="true"

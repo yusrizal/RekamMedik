@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">Rekam Medik</string>
-
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_halaman_registrsi_dokter">HalamanRegistrsiDokterActivity</string>
@@ -8,11 +7,8 @@
     <string name="title_activity_registrasi_klinik">registrasiKlinikActivity</string>
     <string name="title_activity_pemilihan_jadwal_oleh_pasien">PemilihanJadwalOlehPasien</string>
     <string name="title_activity_pemilihan_jadwal_sukses">pemilihanJadwalSukses</string>
-<<<<<<< HEAD
     <string name="title_activity_registrasi_pasien">RegistrasiPasien</string>
-=======
     <string name="title_activity_login">LoginActivity</string>
     <string name="title_activity_jadwal_pilih">JadwalPilihActivity</string>
     <string name="title_activity_list_dokter">ListDokterActivity</string>
->>>>>>> master
 </resources>

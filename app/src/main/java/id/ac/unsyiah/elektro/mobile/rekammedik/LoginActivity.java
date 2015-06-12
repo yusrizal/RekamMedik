@@ -1,9 +1,11 @@
 package id.ac.unsyiah.elektro.mobile.rekammedik;
 
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Toast;
 
 
 public class LoginActivity extends ActionBarActivity {
@@ -12,8 +14,11 @@ public class LoginActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-    }
 
+        Intent intent = getIntent();
+        String messagepasien = intent.getStringExtra(RegistrasiPasienActivity.EXTRA_MESSAGE);
+        Toast.makeText(this, messagepasien, Toast.LENGTH_SHORT).show();
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -33,7 +38,6 @@ public class LoginActivity extends ActionBarActivity {
         if (id == R.id.action_settings) {
             return true;
         }
-
         return super.onOptionsItemSelected(item);
     }
 }
