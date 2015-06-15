@@ -11,7 +11,7 @@ import android.widget.Toast;
 
 
 public class LoginActivity extends Activity {
-    
+
     public final static String EXTRA_MESSAGE = "ac.id.unsyiah.elektro.mobile.rekammedik.MESSAGE";
 
     @Override
