@@ -13,6 +13,7 @@ import android.widget.Toast;
 import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;
 import com.google.appengine.api.datastore.Entity;
+import com.google.appengine.api.datastore.Email;
 
 import java.util.Calendar;
 import java.util.Date;
@@ -68,17 +69,16 @@ public class RegistrasiPasienActivity extends ActionBarActivity {
 
         EditText textPass= (EditText) findViewById(R.id.edit_tgllahir_pasien);
         String password  = String.valueOf(textPass.getText().toString());
+
+        //password yang sudah dihash
         password = HashUtil.getMD5(password);
 
         EditText textKonfPass = (EditText) findViewById(R.id.edit_tgllahir_pasien);
         String konfPass = String.valueOf(textKonfPass.getText().toString());
         konfPass = HashUtil.getMD5(konfPass);
 
-
         if (password.equals(konfPass))
         {
-            //simpan ke SQLite
-
             // simpan ke Datastore
             DatastoreService datastoreService = DatastoreServiceFactory.getDatastoreService();
 
