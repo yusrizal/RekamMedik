@@ -41,19 +41,22 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Dokter"
-            android:id="@+id/btn_register_dokter" />
+            android:id="@+id/btn_register_dokter"
+            android:onClick="doRegister" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Pasien"
-            android:id="@+id/btn_register_pasien" />
+            android:id="@+id/btn_register_pasien"
+            android:onClick="doRegister" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Klinik"
-            android:id="@+id/btn_register_klinik" />
+            android:id="@+id/btn_register_klinik"
+            android:onClick="doRegister" />
     </LinearLayout>
 
     <LinearLayout

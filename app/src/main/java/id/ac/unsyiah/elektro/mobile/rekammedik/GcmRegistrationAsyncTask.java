@@ -42,7 +42,8 @@ class GcmRegistrationAsyncTask extends AsyncTask<Void, Void, String> {
                         new AndroidJsonFactory(), null)
                         // Need setRootUrl and setGoogleClientRequestInitializer only for local testing,
                         // otherwise they can be skipped
-                        .setRootUrl("http://10.0.2.2:8080/_ah/api/")
+                        //.setRootUrl("http://10.0.2.2:8080/_ah/api/")
+                        .setRootUrl("http://192.168.1.101:8080/_ah/api/")
                         .setGoogleClientRequestInitializer(new GoogleClientRequestInitializer() {
                             @Override
                             public void initialize(AbstractGoogleClientRequest<?> abstractGoogleClientRequest)
