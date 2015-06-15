@@ -1,12 +1,13 @@
 package id.ac.unsyiah.elektro.mobile.rekammedik;
 
+import android.app.Activity;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 
 
-public class DokterDaftarRekamMedikActivity extends ActionBarActivity {
+public class DokterDaftarRekamMedikActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -1,12 +1,13 @@
 package id.ac.unsyiah.elektro.mobile.rekammedik;
 
+import android.app.Activity;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
 
-public class ProfilPasienActivity extends ActionBarActivity {
+public class ProfilPasienActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

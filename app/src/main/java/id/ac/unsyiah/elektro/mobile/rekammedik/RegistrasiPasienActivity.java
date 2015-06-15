@@ -1,9 +1,8 @@
 package id.ac.unsyiah.elektro.mobile.rekammedik;
 
-import android.content.Context;
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -20,7 +19,7 @@ import java.util.Date;
 import java.util.GregorianCalendar;
 
 
-public class RegistrasiPasienActivity extends ActionBarActivity {
+public class RegistrasiPasienActivity extends Activity {
 
     public final static String EXTRA_MESSAGE = "ac.id.unsyiah.elektro.mobile.rekammedik.MESSAGE";
 
@@ -31,6 +30,10 @@ public class RegistrasiPasienActivity extends ActionBarActivity {
         setContentView(R.layout.activity_registrasi_pasien);
 
         new GcmRegistrationAsyncTask(this).execute();
+
+        Intent intent = getIntent();
+        String message = intent.getStringExtra(LoginActivity.EXTRA_MESSAGE);
+        Toast.makeText(this, message, Toast.LENGTH_SHORT).show();
     }
 
     @Override
@@ -91,6 +94,9 @@ public class RegistrasiPasienActivity extends ActionBarActivity {
 
             //letakkan data ke datastore
             datastoreService.put(user);
+
+            //buat key
+            //Key key = KeyFactory.createKey(User.class.getSimpleName(), "@"+name);
 
             Intent intent = new Intent(this, LoginActivity.class);
             String message =  "Pendaftaran berhasil";

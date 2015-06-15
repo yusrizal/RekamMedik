@@ -1,5 +1,6 @@
 package id.ac.unsyiah.elektro.mobile.rekammedik;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
@@ -9,7 +10,9 @@ import android.view.View;
 import android.widget.Toast;
 
 
-public class LoginActivity extends ActionBarActivity {
+public class LoginActivity extends Activity {
+    
+    public final static String EXTRA_MESSAGE = "ac.id.unsyiah.elektro.mobile.rekammedik.MESSAGE";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,8 +20,8 @@ public class LoginActivity extends ActionBarActivity {
         setContentView(R.layout.activity_login);
 
         Intent intent = getIntent();
-        String messagepasien = intent.getStringExtra(RegistrasiPasienActivity.EXTRA_MESSAGE);
-        Toast.makeText(this, messagepasien, Toast.LENGTH_SHORT).show();
+        String message = intent.getStringExtra(RegistrasiPasienActivity.EXTRA_MESSAGE);
+        Toast.makeText(this, message, Toast.LENGTH_SHORT).show();
     }
 
     @Override
@@ -42,6 +45,5 @@ public class LoginActivity extends ActionBarActivity {
         return super.onOptionsItemSelected(item);
     }
     public void doRegister(View view){
-        int id =
     }
 }
