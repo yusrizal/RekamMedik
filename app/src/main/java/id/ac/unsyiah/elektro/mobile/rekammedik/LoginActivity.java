@@ -9,6 +9,9 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.google.appengine.api.datastore.DatastoreService;
+import com.google.appengine.api.datastore.DatastoreServiceFactory;
+
 
 public class LoginActivity extends Activity {
 
@@ -45,12 +48,30 @@ public class LoginActivity extends Activity {
         return super.onOptionsItemSelected(item);
     }
     public void doLogin(View view){
+        //ambil data dari masukkan user
         EditText txtemail = (EditText) findViewById(R.id.edit_email);
         String email = String.valueOf(txtemail.getText().toString());
 
         EditText txtpass = (EditText) findViewById(R.id.edit_Pass);
         String pass = String.valueOf(txtpass.getText().toString());
         pass = HashUtil.getMD5(pass);
+
+        //ambil data dari datastore
+
+        DatastoreService datastoreService = DatastoreServiceFactory.getDatastoreService();
+
+        // ambil email
+
+        //ambil hash dari pass
+
+        //cocokkan masukkan yang diberikan
+        /**
+        if (pass ){
+
+        }else{
+
+        }
+         */
     }
     public void doRegister(View view){
     }
