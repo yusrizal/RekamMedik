@@ -111,10 +111,20 @@
             android:layout_height="wrap_content"
             android:inputType="textPassword"
             android:ems="10"
-            android:id="@+id/editText2"
+            android:id="@+id/edit_Pass"
             android:layout_weight="0.45"
             android:password="true"
             android:hint="masukkan password" />
     </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:id="@+id/btn_login"
+        android:layout_below="@+id/linearLayout8"
+        android:layout_alignRight="@+id/linearLayout8"
+        android:layout_alignEnd="@+id/linearLayout8"
+        android:onClick="doLogin" />
 
 </RelativeLayout>

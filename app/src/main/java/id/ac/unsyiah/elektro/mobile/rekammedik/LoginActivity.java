@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.Toast;
 
 
@@ -42,6 +43,14 @@ public class LoginActivity extends Activity {
             return true;
         }
         return super.onOptionsItemSelected(item);
+    }
+    public void doLogin(View view){
+        EditText txtemail = (EditText) findViewById(R.id.edit_email);
+        String email = String.valueOf(txtemail.getText().toString());
+
+        EditText txtpass = (EditText) findViewById(R.id.edit_Pass);
+        String pass = String.valueOf(txtpass.getText().toString());
+        pass = HashUtil.getMD5(pass);
     }
     public void doRegister(View view){
     }
